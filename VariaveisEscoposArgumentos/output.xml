@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230615 19:03:25.185" rpa="false" schemaversion="3">
+<suite id="s1" name="Dicionario" source="C:\ProjetosRobotFramework\VariaveisEscoposArgumentos\Exercicios\dicionario.robot">
+<test id="s1-t1" name="Crie um teste que imprima no Console (Log To Console) cada mês e a sua respectiva quantidade de dias." line="36">
+<kw name="Rode e confira no terminal">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_janeiro} possui ${MESES_ANO.dias_janeiro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.219" endtime="20230615 19:03:25.220"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_fevereiro} possui ${MESES_ANO.dias_fevereiro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.221" endtime="20230615 19:03:25.223"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_marco} possui ${MESES_ANO.dias_marco} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.223" endtime="20230615 19:03:25.224"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_abril} possui ${MESES_ANO.dias_abril} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.225" endtime="20230615 19:03:25.226"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_maio} possui ${MESES_ANO.dias_maio} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.226" endtime="20230615 19:03:25.227"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_junho} possui ${MESES_ANO.dias_junho} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.228" endtime="20230615 19:03:25.228"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_julho} possui ${MESES_ANO.dias_julho} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.229" endtime="20230615 19:03:25.230"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_agosto} possui ${MESES_ANO.dias_agosto} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.231" endtime="20230615 19:03:25.232"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_setembro} possui ${MESES_ANO.dias_setembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.232" endtime="20230615 19:03:25.233"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_outubro} possui ${MESES_ANO.dias_outubro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.234" endtime="20230615 19:03:25.235"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_novembro} possui ${MESES_ANO.dias_novembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.235" endtime="20230615 19:03:25.236"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>O mês de ${MESES_ANO.mes_dezembro} possui ${MESES_ANO.dias_dezembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230615 19:03:25.237" endtime="20230615 19:03:25.238"/>
+</kw>
+<status status="PASS" starttime="20230615 19:03:25.219" endtime="20230615 19:03:25.238"/>
+</kw>
+<status status="PASS" starttime="20230615 19:03:25.218" endtime="20230615 19:03:25.239"/>
+</test>
+<doc>Exercicio sobre dicionário</doc>
+<status status="PASS" starttime="20230615 19:03:25.187" endtime="20230615 19:03:25.240"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Dicionario">Dicionario</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230615 19:03:25.214" level="ERROR">Error in file 'C:\ProjetosRobotFramework\VariaveisEscoposArgumentos\Exercicios\dicionario.robot' on line 6: Error in file 'C:\ProjetosRobotFramework\VariaveisEscoposArgumentos\Exercicios\lista.robot' on line 23: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>
